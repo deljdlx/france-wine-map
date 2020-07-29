@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css
+"/>
+	<link rel="stylesheet" href="demo/_asset/style.css"/>
+	
+
+</head>
+<body>
+
+
+	<h1>French wine geojson map</h1>
+
+	<div id="map"></div>
+
+	
+
+	<script src="./src/WineMap.js"></script>
+	<script src="vendor/echarts-4.8/dist/echarts.js"></script>
+	<script>
+		var map = new WineMap('./src');
+		map.render('#map');
+	</script>
+
+
+</body>
+
+
+
+
+</html>

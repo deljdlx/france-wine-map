@@ -1,0 +1,14 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#map {
+    box-sizing: border-box;
+    height: 800px;
+    background-color: #EEE;
+    border: solid 1px #AAA;
+    box-shadow: 4px 4px 4px rgba(0,0,0, 0.7);
+}
+
+
+
